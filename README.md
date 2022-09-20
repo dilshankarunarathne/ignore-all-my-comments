@@ -86,4 +86,8 @@ The small input contains a program of less than 2k bytes.
 Test set 2 - Hidden
 The large input contains a program of less than 100k bytes.
 
-Sample
+## Sample Input
+
+
+## Sample Output
+
