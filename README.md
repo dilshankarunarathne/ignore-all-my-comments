@@ -2,7 +2,7 @@
  Google Kick Start 2013 B
 
 ## Problem
-Good programmers write fabulous comments. Igor is a programmer and he likes the old C-style comments in /* ... */ blocks. 
+Good programmers write fabulous comments. Igor is a programmer and he likes the old C-style comments in **/\* ... \*/** blocks. 
 For him, it would be ideal if he could use this style as a uniform comment format for all programming languages or even documents, 
 for example Python, Haskell or HTML/XML documents.
 
