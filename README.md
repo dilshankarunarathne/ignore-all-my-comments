@@ -80,10 +80,10 @@ The input program contains only:
 * Punctuation: ~ ! @ # % ^ & * ( ) - + = : ; " ' < > , . ? | / \ { } [ ] _
 * Whitespace characters: space, newline
 
-Test set 1 - Visible
+Test set 1 - Visible  
 The small input contains a program of less than 2k bytes.
 
-Test set 2 - Hidden
+Test set 2 - Hidden  
 The large input contains a program of less than 100k bytes.
 
 ## Sample Input
