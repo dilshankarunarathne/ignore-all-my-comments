@@ -62,7 +62,7 @@ The * character in any /* or /*cannot be re-used in another /* or */. For exampl
 ## Input
 A text document with comment blocks in /* and */. The input file is valid. It follows the specification of **text** in the problem statement. The input file always terminates with a newline symbol.
 
-Output
+## Output
 We only have one test case for this problem. First we need to output the following line.
 
 **Case #1:**  
