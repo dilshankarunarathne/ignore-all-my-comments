@@ -65,11 +65,14 @@ A text document with comment blocks in /* and */. The input file is valid. It fo
 Output
 We only have one test case for this problem. First we need to output the following line.
 
-Case #1:
+**Case #1:**  
 Then, print the document with all comments removed, in the way specified in the problem statements. Don't remove any spaces or empty lines outside comments.
-Limits
+
+## Limits
+
 Time limit: 30 seconds per test set.
 Memory limit: 1GB.
+
 The input program contains only:
 
 * Letters: a-z, A-Z,
