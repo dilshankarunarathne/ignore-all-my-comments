@@ -58,12 +58,13 @@ char:
 Our pre-processor, given a **text**, removes all **comment-block** instances as specified.
 
 Notes
-Igor only needs to remove the comment in one pass. He doesn't remove additional comment blocks created as a result of the removal of any comment block. For example:
-//*no recursion*/* file header */
-should generate:
-/* file header */
-The * character in any /* or /*cannot be re-used in another /* or */. For example the following does NOT form a proper comment block
-/*/
+Igor only needs to remove the comment in one pass. He doesn't remove additional comment blocks created as a result of the removal 
+of any comment block. For example:  
+//\*no recursion*/* file header \*/  
+should generate:  
+/* file header \*/  
+The * character in any /* or /\*cannot be re-used in another /* or */. For example the following does NOT form a proper comment block  
+/\*/
 
 ## Input
 A text document with comment blocks in /* and */. The input file is valid. It follows the specification of **text** in the problem statement. The input file always terminates with a newline symbol.
