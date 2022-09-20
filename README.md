@@ -8,13 +8,20 @@ Making this happen doesn't seem too difficult to Igor. What he will need is a co
 
 Igor's pre-processor isn't quite that simple, though. Here are some cool things it does:
 
-The comments the pre-processor reads can be nested the same way brackets are nested in most programming languages. It's possible to have comments inside comments. For example, the following code block has an outer level of comments that should be removed by the comment pre-processor. The block contains two inner comments.
+* The comments the pre-processor reads can be nested the same way brackets are nested in most programming languages. It's possible to have comments inside comments. For example, the following code block has an outer level of comments that should be removed by the comment pre-processor. The block contains two inner comments.
+
+```
 printf("Hello /* a comment /* a comment inside comment */ 
         inside /* another comment inside comment */ 
         string */ world");
-After the pre-process step, it becomes:
+```
+
+ After the pre-process step, it becomes:
+
+```
 printf("Hello  world");
-Igor recognizes comments can appear anywhere in the text, including inside a string "/*...*/", a constant number 12/*...*/34 or even in a character escape \/*...*/n
+```
+* Igor recognizes comments can appear anywhere in the text, including inside a string "/*...*/", a constant number 12/*...*/34 or even in a character escape \/*...*/n
 Or more formally:
 
 text:
@@ -42,7 +49,7 @@ char:
   digits
   punctuations
   whitespaces
-Our pre-processor, given a text, removes all comment-block instances as specified.
+Our pre-processor, given a **text**, removes all **comment-block** instances as specified.
 
 Notes
 Igor only needs to remove the comment in one pass. He doesn't remove additional comment blocks created as a result of the removal of any comment block. For example:
