@@ -72,10 +72,11 @@ Time limit: 30 seconds per test set.
 Memory limit: 1GB.
 The input program contains only:
 
-Letters: a-z, A-Z,
-Digits: 0-9
-Punctuation: ~ ! @ # % ^ & * ( ) - + = : ; " ' < > , . ? | / \ { } [ ] _
-Whitespace characters: space, newline
+* Letters: a-z, A-Z,
+* Digits: 0-9
+* Punctuation: ~ ! @ # % ^ & * ( ) - + = : ; " ' < > , . ? | / \ { } [ ] _
+* Whitespace characters: space, newline
+
 Test set 1 - Visible
 The small input contains a program of less than 2k bytes.
 
