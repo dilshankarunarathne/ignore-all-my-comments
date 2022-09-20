@@ -8,7 +8,9 @@ Making this happen doesn't seem too difficult to Igor. What he will need is a co
 
 Igor's pre-processor isn't quite that simple, though. Here are some cool things it does:
 
-* The comments the pre-processor reads can be nested the same way brackets are nested in most programming languages. It's possible to have comments inside comments. For example, the following code block has an outer level of comments that should be removed by the comment pre-processor. The block contains two inner comments.
+* The comments the pre-processor reads can be nested the same way brackets are nested in most programming languages. 
+It's possible to have comments inside comments. For example, the following code block has an outer level of comments 
+that should be removed by the comment pre-processor. The block contains two inner comments.
 
 ```
 printf("Hello /* a comment /* a comment inside comment */ 
@@ -21,7 +23,8 @@ printf("Hello /* a comment /* a comment inside comment */
 ```
 printf("Hello  world");
 ```
-* Igor recognizes comments can appear anywhere in the text, including inside a string "/*...*/", a constant number 12/*...*/34 or even in a character escape \/*...*/n
+* Igor recognizes comments can appear anywhere in the text, including inside a string "/\*...\*/", a constant 
+number 12/\*...\*/34 or even in a character escape \/\*...*/n
 Or more formally:
 
 text:
@@ -67,13 +70,15 @@ The * character in any /* or /\*cannot be re-used in another /* or */. For examp
 /\*/
 
 ## Input
-A text document with comment blocks in /* and */. The input file is valid. It follows the specification of **text** in the problem statement. The input file always terminates with a newline symbol.
+A text document with comment blocks in /* and */. The input file is valid. It follows the specification of **text** in the 
+problem statement. The input file always terminates with a newline symbol.
 
 ## Output
 We only have one test case for this problem. First we need to output the following line.
 
 **Case #1:**  
-Then, print the document with all comments removed, in the way specified in the problem statements. Don't remove any spaces or empty lines outside comments.
+Then, print the document with all comments removed, in the way specified in the problem statements. 
+Don't remove any spaces or empty lines outside comments.
 
 ## Limits
 
