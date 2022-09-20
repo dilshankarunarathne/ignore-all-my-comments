@@ -34,13 +34,14 @@ remaining-text:
   comment-block text
 
 comment-block:
-  /* comment-content */
+-  /* comment-content */
+
 comment-content:
-  comment-piece
-  comment-piece remaining-comment
+-  comment-piece
+-  comment-piece remaining-comment
 
 comment-piece:
--  char-sequence-without-/*-or-*/
+-  char-sequence-without-/\*-or-*/
 -  empty-string
 
 remaining-comment:
