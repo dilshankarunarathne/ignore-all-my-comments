@@ -119,5 +119,21 @@ int main() {
 
 ## Sample Output
 <pre>
+Case #1:
+/* file header
+************************
+*/
+int spawn_workers(int worker_count) {
+  
+  return 0; 
+}
 
+int main() {
+  printf("Hello  world");
+  int worker_count = 0144;
+  if (spawn_workers(worker_count) != 0) {
+    exit(-1);
+  }
+  return 0;
+}
 </pre>
