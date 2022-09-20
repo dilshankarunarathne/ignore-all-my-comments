@@ -70,7 +70,7 @@ Then, print the document with all comments removed, in the way specified in the 
 
 ## Limits
 
-Time limit: 30 seconds per test set.
+Time limit: 30 seconds per test set.  
 Memory limit: 1GB.
 
 The input program contains only:
