@@ -25,13 +25,15 @@ printf("Hello  world");
 Or more formally:
 
 text:
-  text-piece
-  text-piece remaining-text
+-  text-piece
+-  text-piece remaining-text
+
 text-piece:
-  char-sequence-without-/*
-  empty-string
+-  char-sequence-without-/*
+-  empty-string
+
 remaining-text:
-  comment-block text
+-  comment-block text
 
 comment-block:
 -  /* comment-content */
