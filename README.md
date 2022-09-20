@@ -45,10 +45,11 @@ remaining-comment:
   comment-block comment-content
 
 char:
-  letters
-  digits
-  punctuations
-  whitespaces
+-  letters
+-  digits
+-  punctuations
+-  whitespaces  
+
 Our pre-processor, given a **text**, removes all **comment-block** instances as specified.
 
 Notes
