@@ -38,11 +38,13 @@ comment-block:
 comment-content:
   comment-piece
   comment-piece remaining-comment
+
 comment-piece:
-  char-sequence-without-/*-or-*/
-  empty-string
+-  char-sequence-without-/*-or-*/
+-  empty-string
+
 remaining-comment:
-  comment-block comment-content
+- comment-block comment-content
 
 char:
 -  letters
