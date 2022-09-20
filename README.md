@@ -58,7 +58,8 @@ should generate:
 /* file header */
 The * character in any /* or /*cannot be re-used in another /* or */. For example the following does NOT form a proper comment block
 /*/
-Input
+
+## Input
 A text document with comment blocks in /* and */. The input file is valid. It follows the specification of text in the problem statement. The input file always terminates with a newline symbol.
 
 Output
