@@ -1,5 +1,8 @@
+import re
+
+
 whole_str = ""
-comment_regex = "^\s*#.*$"
+comment_regex = "/{1}\*{1}.+\*?/{1}"
 
 
 if __name__ == '__main__':
@@ -7,4 +10,4 @@ if __name__ == '__main__':
     whole_str = file.read()
     file.close()
 
-    print(whole_str)
+    print(re.findall(comment_regex, whole_str))
